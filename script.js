@@ -1,14 +1,11 @@
-// Created container element with classname container
 var container = document.createElement("div");
 container.className = "container";
 
-//Created the h1 with title as id and class as a text-center
 var title = document.createElement("h1");
 title.id = "title";
 title.className="text-center";
 title.textContent = "Restcountry and Weather using fetch API";
 
-// Created the div with class as row
 var row = document.createElement("div");
 row.className = "row";
 
